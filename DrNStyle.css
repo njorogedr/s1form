@@ -1,0 +1,49 @@
+/* Element selector- styles all elements of this type */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin:0 auto ;
+    padding: 30px;
+    background: color #1c33a5;
+    
+    }
+    /* Heading selectors */
+    h1 {
+        color: #333;
+        text-align: center;
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 10px;
+    }
+    
+    h2 {
+        color: #ff00c8;
+    }
+    /* Class selector */
+    .skill-list {
+        background-color: #e9ecef;
+        padding: 15px;
+        border-radius: 5px;
+        }
+       
+    /* ID selector */
+    #projects {
+        background-color: #40b8ec;
+        border: 1px solid #1ccf90;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    
+    
+    /* border selector */
+    li {
+        border: 1px solid rgb(0, 0, 0);
+        padding: 8px;
+    } 
+    
+    /* Image selector */
+    img {
+        display: block;
+        width: 100%;
+    }
+    
